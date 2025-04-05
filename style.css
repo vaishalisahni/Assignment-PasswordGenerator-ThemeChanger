@@ -12,29 +12,32 @@ main{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
 }
 .password-generator{
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 30px;
-    width: 500px;
+    width: 42%;
     align-items: center;
     background: #000;
     color: white;
     font-size: 20px;
     border: 1px black solid;
+    text-align: center;
+    border-radius: 4px;
 }
 .password{
     border: 1px white solid;
-    padding: 12px 45px;
+    padding: 1rem 2rem;
+    border-radius: 4px;
 }
-.generate-btn{
-    padding: 8px 15px;
+.generate-btn,.chnge-theme{
+    padding: 0.5rem 1rem;
     font-weight: 500;
-}
-.chnge-theme{
-    padding: 8px 15px;
+    border-radius: 4px;
 }
 .light{
     background: white;
