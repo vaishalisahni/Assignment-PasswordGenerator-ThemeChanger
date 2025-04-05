@@ -23,6 +23,7 @@ main{
     background: #000;
     color: white;
     font-size: 20px;
+    border: 1px black solid;
 }
 .password{
     border: 1px white solid;
@@ -34,4 +35,19 @@ main{
 }
 .chnge-theme{
     padding: 8px 15px;
+}
+.light{
+    background: white;
+    color: black;
+}
+.light .password{
+    border: #000 1px solid;
+}
+.light .generate-btn{
+    background: #000;
+    color: white;
+}
+.light-btn{
+    background: #000;
+    color: white;
 }

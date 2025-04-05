@@ -28,15 +28,15 @@ function generatePassword()
 
 function changeTheme()
 {
-    const red=Math.floor(Math.random()*255);
-    const green=Math.floor(Math.random()*255);
-    const blue=Math.floor(Math.random()*255);
+    if(container.classList.contains("light"))
+        container.classList.remove("light");
+    else
+    container.classList.add("light");
 
-    if(red===255 && green===255 && blue===255)
-        container.style.color="black";
-
-    container.style.background=`rgb(${red},${green},${blue})`;
-
+    if(changeThemebtn.classList.contains("light-btn"))
+        changeThemebtn.classList.remove("light-btn");
+    else
+    changeThemebtn.classList.add("light-btn")
 
 }
 
